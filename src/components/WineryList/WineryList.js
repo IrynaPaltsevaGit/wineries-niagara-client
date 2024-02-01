@@ -1,25 +1,27 @@
-import React from 'react'
-import { useState, useEffect } from 'react';
+import React from "react";
+import { useState, useEffect } from "react";
 
-export default function WineryList({wineries}) {
-    
+export default function WineryList({ wineries }) {
   return (
-    <div>
-        <ul className='wineries'>
-      {
-        wineries.map((item, i) => {
-          return (
-            <li className='winneries__item' key={`item-${i}`}>
-              <div className='winneries__item-text'>
-                <p>{ item.title}</p>
-                <p> {item.address}</p>
-              </div>
-              <img className='winneries__img' src={item.image} />
-            </li>
-          );
-        })
-      }
-      </ul>
-    </div>
-  )
+    <main className="main">
+      <div className="container">
+        <ul className="article">
+          {wineries.map((item, i) => {
+            return (
+              <li className="winneries__item" key={`item-${i}`}>
+                <div className="article__text" data-number="01">
+                  <p className="article_title">{item.title}</p>
+                  <p className="article_subtitle"> {item.address}</p>
+                  <a href="#" class="article_readmore">
+                    read more
+                  </a>
+                </div>
+                <img className="article__image" src={item.image} />
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </main>
+  );
 }
