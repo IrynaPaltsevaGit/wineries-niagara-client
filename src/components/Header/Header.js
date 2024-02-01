@@ -1,7 +1,9 @@
+import React from 'react'
 
 
-
-{/* <header class="header">
+export default function Header() {
+  return (
+    <header class="header">
         <nav class="container-header">
             <div class="container-header__row">
                 <h2 class="container-header__row-logo">WINE</h2>
@@ -20,4 +22,9 @@
             <h1 class="hero__title">Be Prepared For Exploring Niagara's Wine Region!</h1>
             <p class="hero__scroll">scroll down</p>
         </a>
-    </header>  */}
+    </header>
+  )
+}
+
+
+

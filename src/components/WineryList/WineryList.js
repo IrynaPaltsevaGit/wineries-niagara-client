@@ -5,14 +5,14 @@ export default function WineryList({ wineries }) {
   return (
     <main className="main">
       <div className="container">
-        <ul className="article">
+        <ul >
           {wineries.map((item, i) => {
             return (
-              <li className="winneries__item" key={`item-${i}`}>
-                <div className="article__text" data-number="01">
-                  <p className="article_title">{item.title}</p>
-                  <p className="article_subtitle"> {item.address}</p>
-                  <a href="#" class="article_readmore">
+              <li className="article" key={`item-${i}`}>
+                <div className="article__text" data-number={i+1}>
+                  <p className="article__title">{item.title}</p>
+                  <p className="article__subtitle"> {item.address}</p>
+                  <a href="#" class="article__readmore">
                     read more
                   </a>
                 </div>

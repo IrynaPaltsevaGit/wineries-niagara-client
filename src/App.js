@@ -4,6 +4,8 @@ import axios from 'axios';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Homepage from './pages/Homepage';
 import WineryList from "./components/WineryList/WineryList"
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [wineries, setWineries] = useState([]);
@@ -24,12 +26,15 @@ function App() {
   
   return (
     <div className="App">
-      < WineryList wineries={wineries} />
+      <Header/>
+      {/* < WineryList wineries={wineries} /> */}
        <BrowserRouter>       
         <Routes>
           <Route path="/" element={<Homepage wineries={wineries}/>}/>            
         </Routes>
       </BrowserRouter>
+      <Footer/>
+
     </div>
   );
 }

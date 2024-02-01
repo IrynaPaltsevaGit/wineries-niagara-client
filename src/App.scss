@@ -23,7 +23,7 @@ p {
 
 .header {
   padding-top: 4rem;
-  margin-bottom: 52.7rem;
+  margin-bottom: 34.5rem;
 }
 
 .container-header {
@@ -165,6 +165,15 @@ p {
   &:nth-child(even) {
     flex-direction: row-reverse;
   }
+  &__title {
+    margin-bottom: 1.688rem;
+    max-width: 34.688rem;
+    font-family: "Playfair", serif;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 1.2;
+    color: white;
+  }
   &__text {
     position: relative;
     padding-left: 9.375rem;
@@ -206,16 +215,7 @@ p {
       background-color: #fbd784;
     }
   }
-  &__title {
-    margin-bottom: 1.688rem;
-    max-width: 34.688rem;
-    font-family: "Playfair", serif;
-    font-weight: 500;
-    font-size: 4rem;
-    line-height: 1.2;
-    color: #fff;
-  }
-  &__main {
+    &__main {
     margin-bottom: 1.688rem;
     font-style: normal;
     font-weight: 700;
@@ -230,7 +230,7 @@ p {
     font-weight: 700;
     font-size: 1.125rem;
     line-height: 1.222;
-    color: #fbd784;
+    color: white;
     text-decoration: none;
     &::after {
       display: block;
@@ -246,6 +246,9 @@ p {
   }
   &__image {
     display: block;
+    width: 35.375rem;
+    height: 25rem;
+
   }
 }
 
@@ -253,6 +256,7 @@ p {
   padding-bottom: 7.5rem;
   display: flex;
   justify-content: space-between;
+  margin: 0 5rem;
   &__logo {
   }
   &__desk {
