@@ -12,11 +12,11 @@ export default function WineryList({wineries}) {
             <li className='winneries__item' key={`item-${i}`}>
               <div className='winneries__item-text'>
                 <p>{ item.title}</p>
-                <p> {item.address}</p>
-              </div>
-              <Link to={/details/{item.id}} ><img className='winneries__img' src={item.image} /> </Link>
+                <p> {item.address}</p></div>
+             {/* </div><Link to={/details/{item.id}} >
+              <img className='winneries__img' src={item.image} /> </Link> */}
             </li>
-          );
+          ); 
         })
       }
       </ul>
