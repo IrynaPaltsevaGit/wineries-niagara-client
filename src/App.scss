@@ -1,0 +1,25 @@
+.winneries {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  &__item {
+    margin: 0;
+    width: 90%;
+    display: flex;
+    list-style-type: none;
+    
+    &:nth-child(2n) {
+      flex-direction: row-reverse;
+    }
+  }
+  &__img {
+    width: 50%;
+    display: block;
+  }
+  &__item-text{
+    width: 50%;
+  }
+}
