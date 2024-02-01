@@ -1,0 +1,23 @@
+.winneries {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.winneries__item {
+  margin: 0;
+  width: 90%;
+  display: flex;
+  list-style-type: none;
+}
+.winneries__item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+.winneries__img {
+  width: 50%;
+  display: block;
+}
+.winneries__item-text {
+  width: 50%;
+}/*# sourceMappingURL=App.css.map */
