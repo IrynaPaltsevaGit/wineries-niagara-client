@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./App.scss";
 import { useState, useEffect } from "react";
 import axios from "axios";
@@ -5,6 +6,15 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import WineryList from "./components/WineryList/WineryList";
 import WinePage from "./pages/WinePage";
+=======
+import './App.scss';
+import { useState, useEffect } from 'react';
+import axios from 'axios';
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import Homepage from './pages/Homepage';
+import WineryList from "./components/WineryList/WineryList"
+import WinePage from './pages/WinePage';
+>>>>>>> wine-id
 
 function App() {
   const [wineries, setWineries] = useState([]);

@@ -28,6 +28,13 @@ export default function WinePage() {
     <section>
       <h1>{selectedWinery.title}</h1>
       <p>{selectedWinery.about}</p>
+<<<<<<< HEAD
+=======
+      <p>{selectedWinery.adress}</p>
+      <p>{selectedWinery.rating}</p>
+      <p>{selectedWinery.website}</p>
+      <p>{selectedWinery.image}</p>
+>>>>>>> wine-id
     </section>
   );
 }
