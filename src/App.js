@@ -30,7 +30,13 @@ function App() {
       {/* < WineryList wineries={wineries} /> */}
        <BrowserRouter>       
         <Routes>
-          <Route path="/" element={<Homepage wineries={wineries}/>}/>            
+          <Route path="/" element={<Homepage wineries={wineries}/>}/> 
+
+
+          
+          {/* <Route path="/details/:id" element={<WinePage />} /> */}
+
+
         </Routes>
       </BrowserRouter>
       <Footer/>
