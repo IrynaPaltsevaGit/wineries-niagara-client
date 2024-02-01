@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Gilroy";
-  src: url("../assets/fonts/gilroy/FontsFree-Net-Gilroy-Bold.ttf") format("truetype");
+  src: url("../assets/fonts/gilroy/Gilroy-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("../assets/fonts/gilroy/FontsFree-Net-Gilroy-ExtraBold.ttf") format("truetype");
+  src: url("../assets/fonts/gilroy/Gilroy-Heavy.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("../assets/fonts/gilroy/FontsFree-Net-Gilroy2.ttf") format("truetype");
+  src: url("../assets/fonts/gilroy/Gilroy-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -24,7 +24,7 @@
 }
 @font-face {
   font-family: "Playfair";
-  src: url("../assets/fonts/playfair/PlayfairDisplay-Regular.otf") format("opentype");
+  src: url("../assets/fonts/playfair/PlayfairDisplay-Black.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
@@ -36,7 +36,7 @@ body {
   font-family: "Gilroy";
   color: #fff;
   margin: 0;
-  background-color: #161d17;
+  background-color: #0B1D26;
   background-image: url("../styles/assets/images/BG-grape.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -44,6 +44,10 @@ body {
 
 h1, h2, h3, h4, p {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header {

@@ -1,4 +1,4 @@
-@use "../styles/partials/fonts" as *;
+@use '../styles/partials/fonts' as *;
 
 * {
     box-sizing: border-box;
@@ -7,7 +7,7 @@ body {
     font-family: 'Gilroy';
     color: #fff;
     margin: 0;
-    background-color: #161d17;
+    background-color: #0B1D26;
     background-image:url('../styles/assets/images/BG-grape.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -15,6 +15,10 @@ body {
 
 h1, h2, h3, h4, p {
     margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {
