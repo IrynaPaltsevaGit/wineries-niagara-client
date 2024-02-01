@@ -14,7 +14,7 @@ export default function WineryList({wineries}) {
                 <p>{ item.title}</p>
                 <p> {item.address}</p>
               </div>
-              <img className='winneries__img' src={item.image} />
+              <Link to={/details/{item.id}} ><img className='winneries__img' src={item.image} /> </Link>
             </li>
           );
         })
